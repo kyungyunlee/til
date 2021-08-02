@@ -12,5 +12,6 @@ exports.MILList = [
   "MIL/mil-2105.md",
   "MIL/mil-2106.md",
   "MIL/mil-2107.md",
+  "MIL/mil-2108.md"
 ];
 
