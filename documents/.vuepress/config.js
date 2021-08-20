@@ -23,12 +23,8 @@ module.exports = {
         children: CONST.MILList
       },
       {
-        title: 'Data Engineering',
-        children: CONST.DataEngineeringList
-      },
-      {
-        title : 'DS and Algorithms',
-        children : CONST.DSandAlgorithmsList
+        title: 'Database',
+        children: CONST.DatabaseList
       },
       {
         title: 'Functional Programming',

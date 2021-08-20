@@ -1,9 +1,14 @@
 exports.ETCList = [
   "ETC/docker101",
+  "ETC/blockchain_and_environment.md"
 ]
 
-exports.DSandAlgorithmsList = [
-  // "Data-Structure-and-Algorithms/DS-for-storing-data",
+exports.FunctionalProgrammingList = [
+    "functional-programming/scala-basics.md"
+]
+
+exports.DatabaseList = [
+    "Database/Intro.md"
 ]
 
 exports.MILList = [
