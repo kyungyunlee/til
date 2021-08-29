@@ -1,4 +1,8 @@
-# 1. Relational model 
+# Relational model and SQL 
+
+2021.8.20
+
+## Relational model
 
 Reviewing databases with [CMU database course](https://15445.courses.cs.cmu.edu/fall2019/).
 
@@ -20,5 +24,31 @@ Relational algebra describes how to process queries on the database.
 * difference: appears in the first relation and not in the second relation. aka. except
 * product : aka. cross join  
 * join  
- 
+
 Relational model is independent of any query language implementation.
+
+
+2021.08.21 
+## Advanced SQL
+SQL dates back to 1970s, created by IBM.
+
+SQL is based on bags. 
+* lists : ordered, duplicates
+* sets : unordered, no duplicates
+* bags : unordered, duplicates
+
+Relational languages: DML, DDL, DCL
+
+### Window functions 
+Unlike "group by", window functions will list out all tuples but the aggregation function as an added column.
+
+ex. 
+select *, row_number() over (partition by id)
+
+### Common table expressions (CTEs)
+
+CTEs vs Views
+* CTEs exists in memory only
+* Views store SQL query, not the output of the query, and it is physically stored in disk
+* Ad-hoc queries and lighter queries -> use CTE
+* Commonly reused queries -> use views

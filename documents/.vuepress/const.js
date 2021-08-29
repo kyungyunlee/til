@@ -4,11 +4,13 @@ exports.ETCList = [
 ]
 
 exports.FunctionalProgrammingList = [
-    "functional-programming/scala-basics.md"
+  "functional-programming/scala-basics.md"
 ]
 
 exports.DatabaseList = [
-    "Database/Intro.md"
+  "Database/1_relational_model.md",
+  "Database/2_database_storage.md",
+  "Database/3_acid.md"
 ]
 
 exports.MILList = [

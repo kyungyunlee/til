@@ -3,7 +3,7 @@
 
 
 
-<img src="/Users/kylee/Pictures/그림1.jpg" alt="그림1" style="zoom:67%;" />
+<img src="https://i.loli.net/2021/08/20/naf5lO6tyjp8VbD.jpg" alt="그림1" style="zoom:67%;" />
 
 Figure 1 비플의 "EVERYDAYS: THE FIRST 5000 DAYS"
 
